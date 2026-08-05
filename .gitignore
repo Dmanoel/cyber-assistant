@@ -1,0 +1,33 @@
+# Operating System
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.*
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# AI Models
+data/models/
+
+# Knowledge Base
+data/pdfs/
+
+# Backups
+backups/
+
+# Temporary Files
+tmp/
+temp/
