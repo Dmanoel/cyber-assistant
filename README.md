@@ -1,90 +1,118 @@
 # Cyber Assistant
 
-A self-hosted AI assistant focused on cybersecurity, Linux administration, English learning, and productivity.
+> An AI-powered cybersecurity assistant built with Docker, Ollama, Open WebUI, and Python.
+
+![Status](https://img.shields.io/badge/status-active-success)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Docker](https://img.shields.io/badge/docker-ready-2496ED)
+![Linux](https://img.shields.io/badge/platform-Linux-black)
 
 ---
 
-## Project Goal
+## Overview
 
-The goal of this project is to build a fully self-hosted AI assistant that runs locally using Docker containers.
+Cyber Assistant is a self-hosted AI platform designed to assist cybersecurity professionals, IT administrators, and home lab enthusiasts.
 
-The assistant is designed to help with:
-
-- Cybersecurity learning
-- Linux administration
-- English language improvement
-- PDF document analysis
-- Flashcard generation
-- Study simulations
-- AI workflow automation
+The project combines modern AI technologies with open-source infrastructure to provide an intelligent assistant capable of supporting security operations, system administration, and technical documentation.
 
 ---
 
-## Features
+## Current Features
 
-- Local AI models
-- Docker-based deployment
-- Web interface
-- PDF knowledge base
-- English grammar correction
-- Linux command assistant
-- Cybersecurity tutor
-- Flashcard generator
+- Dockerized architecture
+- Ollama integration
+- Open WebUI interface
+- Local AI execution
+- Version-controlled development
+- Professional project structure
+
+---
+
+## Planned Features
+
+- FastAPI backend
+- PostgreSQL
+- Redis
+- LangChain integration
+- Model Context Protocol (MCP)
+- Retrieval-Augmented Generation (RAG)
+- CVE search
+- IOC lookup
+- Log analysis
+- Malware analysis
+- Threat intelligence
+- Report generation
 
 ---
 
 ## Technology Stack
 
-- Linux Mint
 - Docker
 - Docker Compose
 - Ollama
 - Open WebUI
-- Flowise
-- n8n
+- Python
+- FastAPI
+- PostgreSQL
+- Redis
+- Git
+- GitHub
+- Linux
 
 ---
 
 ## Project Structure
 
 ```text
-CyberAssistant/
-├── backups/
+cyber-assistant/
+
 ├── docker/
-├── models/
-├── notes/
-├── pdfs/
-├── projects/
+├── docs/
 ├── prompts/
 ├── scripts/
-└── README.md
+├── data/
+├── app/
+├── README.md
+└── LICENSE
 ```
-
----
-
-## Current Status
-
-Project Version: **v0.1**
-
-Status: 🚧 In Development
 
 ---
 
 ## Roadmap
 
-- [x] Create project structure
-- [ ] Install Docker
-- [ ] Install Ollama
-- [ ] Install Open WebUI
-- [ ] Install Flowise
-- [ ] Install n8n
-- [ ] Create Cyber Assistant
-- [ ] Add PDF knowledge base
-- [ ] Implement memory
-- [ ] Publish on GitHub
+- [x] GitHub repository
+- [x] Docker installation
+- [x] Docker Compose
+- [x] Project structure
+
+- [ ] Open WebUI
+- [ ] Ollama
+- [ ] FastAPI
+- [ ] PostgreSQL
+- [ ] Redis
+- [ ] LangChain
+- [ ] MCP
+- [ ] RAG
+
+---
+
+## Author
+
+**Danilo Manoel**
+
+IT Support Technician transitioning into Cybersecurity.
+
+Currently building enterprise-grade home lab projects focused on:
+
+- Linux
+- Docker
+- AI
+- Networking
+- Cybersecurity
+- Infrastructure Automation
 
 ---
 
 ## License
 
-This project will be released under the MIT License.
+This project is licensed under the MIT License.
