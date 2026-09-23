@@ -1,4 +1,3 @@
-README START
 
 # Cyber Assistant
 
@@ -269,4 +268,3 @@ Hands-on interests:
 
 This project is licensed under the MIT License.
 
-README END
